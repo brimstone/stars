@@ -23,6 +23,7 @@ jobs:
           github-user: ${{ github.actor }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
           list-file: "README.md"
+          ignored-repositories: cirosantilli/x86-bare-metal-examples
 
       # Commit the changes
       - name: Commit files
